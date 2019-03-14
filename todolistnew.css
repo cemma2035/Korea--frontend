@@ -1,0 +1,206 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.our-color{
+    color: #fc5155;
+}
+/*Welcome Page*/
+.jumbo-bg {
+    background-color:black;
+    background-size: cover;
+    min-height: 85vh;
+}
+
+.jumbo-bg h1 {
+    color: white;
+    font-size: 10vh;
+}
+
+.nav-bg {
+    /*#ff84ff*/
+    background-color: black;
+    border-bottom:1px solid white;
+}
+.nav-font {
+   color: white !important;
+}
+.navbar-toggler-icon{
+    color:white;
+}
+
+.welcome-footer {
+    background-color: navajowhite;
+}
+.carousel-item img{
+    height:91vh;
+}
+.car-words {
+    border: 1px solid white;
+    margin-bottom: 30vh;
+}
+.brand-name {
+    color: #fc5155 !important;
+}
+.brand-name:hover{
+    color: white;
+}
+
+.introduction{
+    background-image:url("Images/bulb.jpg");
+    background-size:cover;
+    color:white;
+}
+.intro-con{
+    max-width:70%;
+}
+.intro-con span {
+    color: #fc5155;
+}
+
+/*Registration and Log In Page*/
+.register-form {
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    height: 100vh;
+}
+.login-form {
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    height: 100vh;
+}
+.register-form::-webkit-scrollbar{
+    width:5px;
+    background-color: red;
+}
+.form-group input{
+}
+.register-btn{
+    background-color: black;
+	color: #fc5155;
+	border: 1px solid #fc5155;
+}
+.or-register-btn{
+    background-color: #fc5155;
+    border:1px solid black;
+}
+.or-login-btn {
+    background-color: #fc5155;
+    border: 1px solid #fc5155;
+}
+
+.login-btn {
+	background-color: black;
+	color: #808080;
+	border: 1px solid #fc5155;
+}
+.login-btn:hover {
+    background-color: rgba(0,0,0,0.2);
+    border:1px solid #fc5155;
+}
+.or-login-btn:hover {
+    background-color: rgba(0,0,0,0.2);
+    border:1px solid #fc5155;
+}
+.register-btn:hover {
+    background-color: rgba(0,0,0,0.2);
+    border:1px solid #fc5155;
+}
+.or-register-btn:hover {
+    background-color: rgba(0,0,0,0.2);
+    border:1px solid #fc5155;
+}
+.or-register-btn:focus{
+    background-color:  rgba(0,0,0,0.2) !important;
+    box-shadow: 0 0 0 .2rem #fc5155 !important;
+    border:0.7px solid #fc5155;
+}
+.or-login-btn:focus{
+    background-color:  rgba(0,0,0,0.2) !important;
+    box-shadow: 0 0 0 .2rem #fc5155 !important;
+    border:0.7px solid #fc5155;
+}
+#error {
+    display: none;
+}
+
+.register{
+	
+
+}
+.reg-page {
+	background-image: url("Images/working-girl.jpg");
+	background-size: cover;
+}
+.reg-slogan {
+	margin-top: 40vh;
+	color: white;
+    width:50%;
+}
+.reg-slogan h4{
+    font-weight: bolder;
+    font-size: 5vh;
+}
+/*Dashboard*/
+.brand-name-white{
+    color:white;
+}
+.nav-utility li{
+    
+
+}
+
+.dashboard{
+    background-color: #282828;
+    color:white;
+}
+
+.list-css{
+    background-color: #282828;
+    color:white;
+}
+.list-date .active{
+    background-color: #fc5155;
+    color:white;
+    border:1px solid black;
+}
+.empty-list-img{
+    margin-top:40%;
+}
+.add-task-btn{
+    background-color: #fc5155;
+    color:white;
+    border: 1px solid black;
+}
+#task-description{
+}
+.navbar-toggler-icon{
+    color:white;
+}
+
+/*Profile Page*/
+
+.profile-img img{
+    padding: 30px;
+    border:1px solid grey;
+    border-radius: 70px;
+}
+.profile-name{
+    margin-top: 1%;
+}
+.user-info{
+    border-left:1px solid grey;
+}
+@media (min-width: 768px){
+    .full-list{
+        height: 100vh;
+    }
+}
+@media (max-width: 768px){
+    .full-list{
+        height: 50vh;
+    }
+    .nav-utility{
+        display: inline;
+    }
+}
